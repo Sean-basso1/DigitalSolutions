@@ -1,0 +1,18 @@
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.pdb
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.loginScreenForm.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.mainScreenFormAdmin.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.enterHoursForm.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.projectScreenForm.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.createInvoiceForm.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.employeeListingForm.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.mainScreenFormEmployee.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.Properties.Resources.resources
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csproj.GenerateResource.Cache
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
+H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSolutions - Prototype1 - SB\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csprojResolveAssemblyReference.cache
+C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
+C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
+C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
