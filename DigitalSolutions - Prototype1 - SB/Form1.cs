@@ -35,7 +35,7 @@ namespace DigitalSolutions___Prototype1___SB
             }
             else 
             {
-                errorLabel.Text = "Incorrect login information provided. Ahahahah";
+                errorLabel.Text = "Incorrect login information provided.";
             }
         }
 
