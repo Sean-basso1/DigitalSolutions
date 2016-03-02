@@ -19,3 +19,6 @@ C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\o
 \\Client\E$\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
 \\Client\E$\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
 \\Client\E$\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
