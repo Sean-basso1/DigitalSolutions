@@ -33,8 +33,13 @@
             this.archiveProjectButton = new System.Windows.Forms.Button();
             this.enterHoursButton = new System.Windows.Forms.Button();
             this.logoutButton = new System.Windows.Forms.Button();
-            this.mainScreenTextBox = new System.Windows.Forms.TextBox();
             this.employeeListingButton = new System.Windows.Forms.Button();
+            this.mainScreenListView = new System.Windows.Forms.ListView();
+            this.columnHeaderProjectCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderProjectName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderClientName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderShortDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderStartDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // createProjectButton
@@ -85,14 +90,6 @@
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
-            // mainScreenTextBox
-            // 
-            this.mainScreenTextBox.Location = new System.Drawing.Point(112, 12);
-            this.mainScreenTextBox.Multiline = true;
-            this.mainScreenTextBox.Name = "mainScreenTextBox";
-            this.mainScreenTextBox.Size = new System.Drawing.Size(315, 397);
-            this.mainScreenTextBox.TabIndex = 5;
-            // 
             // employeeListingButton
             // 
             this.employeeListingButton.Location = new System.Drawing.Point(12, 102);
@@ -103,13 +100,53 @@
             this.employeeListingButton.UseVisualStyleBackColor = true;
             this.employeeListingButton.Click += new System.EventHandler(this.employeeListingButton_Click);
             // 
+            // mainScreenListView
+            // 
+            this.mainScreenListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeaderProjectCode,
+            this.columnHeaderProjectName,
+            this.columnHeaderClientName,
+            this.columnHeaderShortDesc,
+            this.columnHeaderStartDate});
+            this.mainScreenListView.Location = new System.Drawing.Point(126, 12);
+            this.mainScreenListView.Name = "mainScreenListView";
+            this.mainScreenListView.Size = new System.Drawing.Size(523, 423);
+            this.mainScreenListView.TabIndex = 7;
+            this.mainScreenListView.UseCompatibleStateImageBehavior = false;
+            this.mainScreenListView.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeaderProjectCode
+            // 
+            this.columnHeaderProjectCode.Text = "Project Code";
+            this.columnHeaderProjectCode.Width = 79;
+            // 
+            // columnHeaderProjectName
+            // 
+            this.columnHeaderProjectName.Text = "Project Name";
+            this.columnHeaderProjectName.Width = 137;
+            // 
+            // columnHeaderClientName
+            // 
+            this.columnHeaderClientName.Text = "Client Name";
+            this.columnHeaderClientName.Width = 105;
+            // 
+            // columnHeaderShortDesc
+            // 
+            this.columnHeaderShortDesc.Text = "Short Description";
+            this.columnHeaderShortDesc.Width = 100;
+            // 
+            // columnHeaderStartDate
+            // 
+            this.columnHeaderStartDate.Text = "Start Date";
+            this.columnHeaderStartDate.Width = 95;
+            // 
             // mainScreenFormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 421);
+            this.ClientSize = new System.Drawing.Size(661, 447);
+            this.Controls.Add(this.mainScreenListView);
             this.Controls.Add(this.employeeListingButton);
-            this.Controls.Add(this.mainScreenTextBox);
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.enterHoursButton);
             this.Controls.Add(this.archiveProjectButton);
@@ -118,8 +155,8 @@
             this.Name = "mainScreenFormAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Digital Solutions - Main Screen";
+            this.Load += new System.EventHandler(this.mainScreenFormAdmin_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -130,7 +167,12 @@
         private System.Windows.Forms.Button archiveProjectButton;
         private System.Windows.Forms.Button enterHoursButton;
         private System.Windows.Forms.Button logoutButton;
-        private System.Windows.Forms.TextBox mainScreenTextBox;
         private System.Windows.Forms.Button employeeListingButton;
+        private System.Windows.Forms.ListView mainScreenListView;
+        private System.Windows.Forms.ColumnHeader columnHeaderProjectCode;
+        private System.Windows.Forms.ColumnHeader columnHeaderProjectName;
+        private System.Windows.Forms.ColumnHeader columnHeaderClientName;
+        private System.Windows.Forms.ColumnHeader columnHeaderShortDesc;
+        private System.Windows.Forms.ColumnHeader columnHeaderStartDate;
     }
 }
