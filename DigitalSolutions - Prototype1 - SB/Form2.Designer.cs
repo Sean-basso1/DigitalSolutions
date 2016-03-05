@@ -28,13 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.createProjectButton = new System.Windows.Forms.Button();
             this.editProjectButton = new System.Windows.Forms.Button();
             this.archiveProjectButton = new System.Windows.Forms.Button();
             this.enterHoursButton = new System.Windows.Forms.Button();
             this.logoutButton = new System.Windows.Forms.Button();
-            this.mainScreenTextBox = new System.Windows.Forms.TextBox();
             this.employeeListingButton = new System.Windows.Forms.Button();
+            this.software_eng_db_1DataSet = new DigitalSolutions___Prototype1___SB.software_eng_db_1DataSet();
+            this.clientBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.clientTableAdapter = new DigitalSolutions___Prototype1___SB.software_eng_db_1DataSetTableAdapters.clientTableAdapter();
+            this.tableAdapterManager = new DigitalSolutions___Prototype1___SB.software_eng_db_1DataSetTableAdapters.TableAdapterManager();
+            this.projectTableAdapter = new DigitalSolutions___Prototype1___SB.software_eng_db_1DataSetTableAdapters.projectTableAdapter();
+            this.projectBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.projectBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.clientBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.software_eng_db_1DataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // createProjectButton
@@ -85,14 +98,6 @@
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
-            // mainScreenTextBox
-            // 
-            this.mainScreenTextBox.Location = new System.Drawing.Point(112, 12);
-            this.mainScreenTextBox.Multiline = true;
-            this.mainScreenTextBox.Name = "mainScreenTextBox";
-            this.mainScreenTextBox.Size = new System.Drawing.Size(315, 397);
-            this.mainScreenTextBox.TabIndex = 5;
-            // 
             // employeeListingButton
             // 
             this.employeeListingButton.Location = new System.Drawing.Point(12, 102);
@@ -103,13 +108,51 @@
             this.employeeListingButton.UseVisualStyleBackColor = true;
             this.employeeListingButton.Click += new System.EventHandler(this.employeeListingButton_Click);
             // 
+            // software_eng_db_1DataSet
+            // 
+            this.software_eng_db_1DataSet.DataSetName = "software_eng_db_1DataSet";
+            this.software_eng_db_1DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // clientBindingSource
+            // 
+            this.clientBindingSource.DataMember = "client";
+            this.clientBindingSource.DataSource = this.software_eng_db_1DataSet;
+            // 
+            // clientTableAdapter
+            // 
+            this.clientTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.projectTableAdapter = this.projectTableAdapter;
+            this.tableAdapterManager.UpdateOrder = DigitalSolutions___Prototype1___SB.software_eng_db_1DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // projectTableAdapter
+            // 
+            this.projectTableAdapter.ClearBeforeFill = true;
+            // 
+            // projectBindingSource
+            // 
+            this.projectBindingSource.DataMember = "project";
+            this.projectBindingSource.DataSource = this.software_eng_db_1DataSet;
+            // 
+            // projectBindingSource1
+            // 
+            this.projectBindingSource1.DataMember = "project";
+            this.projectBindingSource1.DataSource = this.software_eng_db_1DataSet;
+            // 
+            // clientBindingSource1
+            // 
+            this.clientBindingSource1.DataMember = "client";
+            this.clientBindingSource1.DataSource = this.software_eng_db_1DataSet;
+            // 
             // mainScreenFormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(439, 421);
+            this.ClientSize = new System.Drawing.Size(930, 421);
             this.Controls.Add(this.employeeListingButton);
-            this.Controls.Add(this.mainScreenTextBox);
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.enterHoursButton);
             this.Controls.Add(this.archiveProjectButton);
@@ -118,8 +161,13 @@
             this.Name = "mainScreenFormAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Digital Solutions - Main Screen";
+            this.Load += new System.EventHandler(this.mainScreenFormAdmin_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.software_eng_db_1DataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clientBindingSource1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -130,7 +178,14 @@
         private System.Windows.Forms.Button archiveProjectButton;
         private System.Windows.Forms.Button enterHoursButton;
         private System.Windows.Forms.Button logoutButton;
-        private System.Windows.Forms.TextBox mainScreenTextBox;
         private System.Windows.Forms.Button employeeListingButton;
+        private software_eng_db_1DataSet software_eng_db_1DataSet;
+        private System.Windows.Forms.BindingSource clientBindingSource;
+        private software_eng_db_1DataSetTableAdapters.clientTableAdapter clientTableAdapter;
+        private software_eng_db_1DataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private software_eng_db_1DataSetTableAdapters.projectTableAdapter projectTableAdapter;
+        private System.Windows.Forms.BindingSource projectBindingSource;
+        private System.Windows.Forms.BindingSource projectBindingSource1;
+        private System.Windows.Forms.BindingSource clientBindingSource1;
     }
 }

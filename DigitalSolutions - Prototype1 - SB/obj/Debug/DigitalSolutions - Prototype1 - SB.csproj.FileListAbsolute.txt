@@ -22,3 +22,17 @@ C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\o
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.pdb
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\MySql.Data.dll
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\MySql.Web.v20.dll
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csprojResolveAssemblyReference.cache
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.loginScreenForm.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.mainScreenFormAdmin.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.enterHoursForm.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.projectScreenForm.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.createInvoiceForm.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.employeeListingForm.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.mainScreenFormEmployee.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.Properties.Resources.resources
+C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csproj.GenerateResource.Cache

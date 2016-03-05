@@ -58,5 +58,16 @@ namespace DigitalSolutions___Prototype1___SB
             employeeListing.InstanceRef = this;
             employeeListing.Show();
         }
+
+        private void mainScreenFormAdmin_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'software_eng_db_1DataSet.project' table. You can move, or remove it, as needed.
+            this.projectTableAdapter.Fill(this.software_eng_db_1DataSet.project);
+            // TODO: This line of code loads data into the 'software_eng_db_1DataSet.client' table. You can move, or remove it, as needed.
+            this.clientTableAdapter.Fill(this.software_eng_db_1DataSet.client);
+
+        }
+
+        
     }
 }
