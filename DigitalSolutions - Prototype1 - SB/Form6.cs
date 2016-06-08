@@ -17,29 +17,79 @@ namespace DigitalSolutions___Prototype1___SB
             InitializeComponent();
         }
 
-        //Used to save the "state" of the Main Screen so we can go back to same instance instead of creating new form.
-        private Form m_InstanceRef = null;
-        public Form InstanceRef
-        {
-            get
-            {
-                return m_InstanceRef;
-            }
-            set
-            {
-                m_InstanceRef = value;
-            }
-        }
-
         private void backButton_Click(object sender, EventArgs e)
         {
+            //Returns to the previous screen.
             this.Hide();
-            InstanceRef.Show();
         }
 
-        private void applyChangesButton_Click(object sender, EventArgs e)
+        private void employeeListingForm_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Changes applied successfully.");
+            try
+            {
+                //Retrieves and populates Employee data from the database.
+                string query = "SELECT employee.employee_name, employee.job_title, employee.employee_skills FROM employee";
+
+                employeeListingListView.View = View.Details;
+                RetrieveData rD = new RetrieveData(query);
+                DataTable dataTable = rD.retrieveData();
+
+
+                for (int i = 0; i < dataTable.Rows.Count; i++)
+                {
+                    DataRow dataRow = dataTable.Rows[i];
+
+                    ListViewItem listData = new ListViewItem(dataRow["employee_name"].ToString());
+                    listData.SubItems.Add(dataRow["job_title"].ToString());
+                    listData.SubItems.Add(dataRow["employee_skills"].ToString());
+
+                    employeeListingListView.Items.Add(listData);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Database may have disconnected, or selected data is not available.");
+            }
+        }
+
+        private void deactivateEmployeeButton_Click(object sender, EventArgs e)
+        {
+            //Deactivates a selected employee.
+            try
+            {
+                //Checks to ensure an employee is selected.
+                if(employeeListingListView.SelectedItems.Count == 0)
+                {
+                    MessageBox.Show("Employee not selected, select an Employee and try again.");
+                }
+                //Loops through and deletes only the selected employee.
+                foreach(int i in employeeListingListView.SelectedIndices)
+                {
+                    DsUtil utility = new DsUtil();
+                    int employee = utility.getEmployeeId(employeeListingListView.Items[i].Text);
+                    employeeListingListView.Items.Remove(employeeListingListView.Items[i]);
+                    string query = "DELETE FROM software_eng_db_1.employee WHERE employee.employee_id = " + employee + ";";
+
+                    RetrieveData rD = new RetrieveData(query);
+                    if(rD.updateData())
+                    {
+                        //Shows a success message upon sucessful deletion from the database.
+                        MessageBox.Show("Employee Deactivated.");
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Database may have disconnected, or selected data is not available.");
+            }
+        }
+
+        private void createEmployeeButton_Click(object sender, EventArgs e)
+        {
+            //Launches the Create Employee Screen.
+            createEmployeeForm createEmp = new createEmployeeForm();
+            createEmp.Show();
+            this.Hide();
         }
     }
 }

@@ -31,9 +31,13 @@
             this.createProjectButton = new System.Windows.Forms.Button();
             this.editProjectButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.enterHoursButton = new System.Windows.Forms.Button();
             this.logoutButton = new System.Windows.Forms.Button();
-            this.mainScreenTextBox = new System.Windows.Forms.TextBox();
+            this.employeeListView = new System.Windows.Forms.ListView();
+            this.projectCodeHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.projectNameHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clientNameHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.shortDescHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.startDateHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // createProjectButton
@@ -44,7 +48,7 @@
             this.createProjectButton.TabIndex = 0;
             this.createProjectButton.Text = "Create Project";
             this.createProjectButton.UseVisualStyleBackColor = true;
-            this.createProjectButton.Click += new System.EventHandler(this.button1_Click);
+            this.createProjectButton.Click += new System.EventHandler(this.createProjectButton_Click);
             // 
             // editProjectButton
             // 
@@ -52,11 +56,13 @@
             this.editProjectButton.Name = "editProjectButton";
             this.editProjectButton.Size = new System.Drawing.Size(94, 23);
             this.editProjectButton.TabIndex = 1;
-            this.editProjectButton.Text = "Edit Project";
+            this.editProjectButton.Text = "Select Project";
             this.editProjectButton.UseVisualStyleBackColor = true;
+            this.editProjectButton.Click += new System.EventHandler(this.editProjectButton_Click);
             // 
             // button3
             // 
+            this.button3.Enabled = false;
             this.button3.Location = new System.Drawing.Point(12, 73);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(94, 23);
@@ -64,19 +70,9 @@
             this.button3.Text = "Archive Project";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // enterHoursButton
-            // 
-            this.enterHoursButton.Location = new System.Drawing.Point(12, 102);
-            this.enterHoursButton.Name = "enterHoursButton";
-            this.enterHoursButton.Size = new System.Drawing.Size(94, 23);
-            this.enterHoursButton.TabIndex = 3;
-            this.enterHoursButton.Text = "Enter Hours";
-            this.enterHoursButton.UseVisualStyleBackColor = true;
-            this.enterHoursButton.Click += new System.EventHandler(this.enterHoursButton_Click);
-            // 
             // logoutButton
             // 
-            this.logoutButton.Location = new System.Drawing.Point(12, 131);
+            this.logoutButton.Location = new System.Drawing.Point(12, 102);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(94, 23);
             this.logoutButton.TabIndex = 4;
@@ -84,30 +80,63 @@
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
-            // mainScreenTextBox
+            // employeeListView
             // 
-            this.mainScreenTextBox.Location = new System.Drawing.Point(112, 12);
-            this.mainScreenTextBox.Multiline = true;
-            this.mainScreenTextBox.Name = "mainScreenTextBox";
-            this.mainScreenTextBox.Size = new System.Drawing.Size(307, 400);
-            this.mainScreenTextBox.TabIndex = 5;
+            this.employeeListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.projectCodeHeader,
+            this.projectNameHeader,
+            this.clientNameHeader,
+            this.shortDescHeader,
+            this.startDateHeader});
+            this.employeeListView.FullRowSelect = true;
+            this.employeeListView.Location = new System.Drawing.Point(113, 12);
+            this.employeeListView.MultiSelect = false;
+            this.employeeListView.Name = "employeeListView";
+            this.employeeListView.Size = new System.Drawing.Size(635, 297);
+            this.employeeListView.TabIndex = 5;
+            this.employeeListView.UseCompatibleStateImageBehavior = false;
+            this.employeeListView.View = System.Windows.Forms.View.Details;
+            // 
+            // projectCodeHeader
+            // 
+            this.projectCodeHeader.Text = "Project Code";
+            this.projectCodeHeader.Width = 100;
+            // 
+            // projectNameHeader
+            // 
+            this.projectNameHeader.Text = "Project Name";
+            this.projectNameHeader.Width = 125;
+            // 
+            // clientNameHeader
+            // 
+            this.clientNameHeader.Text = "Client Name";
+            this.clientNameHeader.Width = 100;
+            // 
+            // shortDescHeader
+            // 
+            this.shortDescHeader.Text = "Short Description";
+            this.shortDescHeader.Width = 150;
+            // 
+            // startDateHeader
+            // 
+            this.startDateHeader.Text = "Start Date";
+            this.startDateHeader.Width = 150;
             // 
             // mainScreenFormEmployee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 424);
-            this.Controls.Add(this.mainScreenTextBox);
+            this.ClientSize = new System.Drawing.Size(760, 321);
+            this.Controls.Add(this.employeeListView);
             this.Controls.Add(this.logoutButton);
-            this.Controls.Add(this.enterHoursButton);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.editProjectButton);
             this.Controls.Add(this.createProjectButton);
             this.Name = "mainScreenFormEmployee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Digital Solutions - Main Screen";
+            this.Load += new System.EventHandler(this.mainScreenFormEmployee_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -116,8 +145,12 @@
         private System.Windows.Forms.Button createProjectButton;
         private System.Windows.Forms.Button editProjectButton;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button enterHoursButton;
         private System.Windows.Forms.Button logoutButton;
-        private System.Windows.Forms.TextBox mainScreenTextBox;
+        private System.Windows.Forms.ListView employeeListView;
+        private System.Windows.Forms.ColumnHeader projectCodeHeader;
+        private System.Windows.Forms.ColumnHeader projectNameHeader;
+        private System.Windows.Forms.ColumnHeader clientNameHeader;
+        private System.Windows.Forms.ColumnHeader shortDescHeader;
+        private System.Windows.Forms.ColumnHeader startDateHeader;
     }
 }
