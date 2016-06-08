@@ -12,6 +12,8 @@ namespace DigitalSolutions___Prototype1___SB
 {
     public partial class loginScreenForm : Form
     {
+        public static string username;
+
         public loginScreenForm()
         {
             InitializeComponent();
@@ -19,16 +21,17 @@ namespace DigitalSolutions___Prototype1___SB
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            //JUST A TEST
             //"Login System" with simple validation.
             if (usernameTextBox.Text == "admin" && passwordTextBox.Text == "12345")
             {
+                username = "admin";
                 mainScreenFormAdmin mainScreenAdmin = new mainScreenFormAdmin();
                 mainScreenAdmin.Show();
                 this.Hide();
             }
             else if (usernameTextBox.Text == "employee" && passwordTextBox.Text == "12345")
             {
+                username = "employee";
                 mainScreenFormEmployee mainScreenEmployee = new mainScreenFormEmployee();
                 mainScreenEmployee.Show();
                 this.Hide();
@@ -38,11 +41,11 @@ namespace DigitalSolutions___Prototype1___SB
                 errorLabel.Text = "Incorrect login information provided.";
             }
         }
-
+        
         //Exits the program.
         private void exitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

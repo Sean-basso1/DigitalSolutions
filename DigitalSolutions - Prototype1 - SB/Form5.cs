@@ -18,25 +18,10 @@ namespace DigitalSolutions___Prototype1___SB
             InitializeComponent();
         }
 
-        //Used to save the "state" of the Project Screen
-        //Part 2 of code adapted from: http://www.techrepublic.com/article/opening-form-instances-in-c/
-        private Form m_InstanceRef = null;
-        public Form InstanceRef
-        {
-            get
-            {
-                return m_InstanceRef;
-            }
-            set
-            {
-                m_InstanceRef = value;
-            }
-        }
-
         private void backButton_Click(object sender, EventArgs e)
         {
+            //Returns to the previous screen.
             this.Hide();
-            InstanceRef.Show();
         }
 
         private void viewInvoiceButton_Click(object sender, EventArgs e)
@@ -47,6 +32,7 @@ namespace DigitalSolutions___Prototype1___SB
 
         private void printInvoiceButton_Click(object sender, EventArgs e)
         {
+            //Fake "Print Command" as proof of concept.
             MessageBox.Show("Print Command sent.");
         }
     }
