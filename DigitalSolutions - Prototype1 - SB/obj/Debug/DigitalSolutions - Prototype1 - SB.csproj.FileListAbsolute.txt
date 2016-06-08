@@ -24,7 +24,6 @@ C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Pro
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
 =======
-<<<<<<< HEAD
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.pdb
@@ -128,9 +127,6 @@ C:\Users\Eric\Desktop\Project\Digital Solutions ERP - FINAL\DigitalSolutions - P
 C:\Users\Eric\Desktop\Project\Digital Solutions ERP - FINAL\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.createEmployeeForm.resources
 C:\Users\Eric\Desktop\Project\Digital Solutions ERP - FINAL\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.Properties.Resources.resources
 C:\Users\Eric\Desktop\Project\Digital Solutions ERP - FINAL\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csproj.GenerateResource.Cache
-C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
-C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
-C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.pdb
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csprojResolveAssemblyReference.cache
@@ -145,7 +141,6 @@ C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Pro
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.createEmployeeForm.resources
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.Properties.Resources.resources
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csproj.GenerateResource.Cache
-=======
 C:\Users\Hafiz\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
 C:\Users\Hafiz\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Hafiz\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
