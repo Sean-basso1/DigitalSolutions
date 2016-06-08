@@ -52,6 +52,7 @@ namespace DigitalSolutions___Prototype1___SB
 
         private void mainScreenFormAdmin_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             //Load event for the Main Screen. getQ is a Queries object that is used to provide all of the SQL queries for the 
             //Main Screen.
             Queries getQ = new Queries();
@@ -111,5 +112,22 @@ namespace DigitalSolutions___Prototype1___SB
         }
 
         
+=======
+            const string PROJECT_INFO_QUARY = "SELECT sP.project_id, sP.project_name, sP.project_short_description, sP.project_start_date "
+                                        + "FROM software_eng_db_1.project AS sP;" 
+                                        + "SELECT cus.client_name FROM software_eng_db_1.customer AS cus";
+
+            RetrieveData rData = new RetrieveData(PROJECT_INFO_QUARY);
+            DataSet projectInfoDs = rData.retrieveData();
+
+            //now convert DataSet to string datatype
+            Converter conv = new Converter(projectInfoDs);
+            string[,] strData = conv.convertDataSetToArray(0, 4);
+
+            mainScreenListView.Items.Add(strData[0, 0], 0);
+            mainScreenListView.Items.Add(strData[0, 1], 1);
+            //MessageBox.Show();
+        }
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
     }
 }

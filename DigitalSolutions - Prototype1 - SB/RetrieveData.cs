@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +8,33 @@ using MySql.Data.MySqlClient;
 using System.Data;
 using System.Windows.Forms;
 
+=======
+﻿using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/*
+ * this class is designed for setting a connection to the database and retrieve
+ * the data specific to the quary that is given.
+ * 
+ */
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
 namespace DigitalSolutions___Prototype1___SB
 {
     class RetrieveData
     {
+<<<<<<< HEAD
         //fields
         private string connectionString = "server=localhost;userid=root;password=22https//coolio;persistsecurityinfo=True;database=software_eng_db_1";
+=======
+
+        //fields
+        private string connectionString;
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
         private MySqlConnection connection;
         private MySqlDataAdapter dbAdapter;
         private string quary;
@@ -21,6 +43,7 @@ namespace DigitalSolutions___Prototype1___SB
         public RetrieveData(string quary)
         {
             this.quary = quary;
+<<<<<<< HEAD
             connection = new MySqlConnection(connectionString);
         }
 
@@ -36,10 +59,23 @@ namespace DigitalSolutions___Prototype1___SB
         {
 
             DataTable dt = new DataTable();
+=======
+            connectionString = "datasource=localhost;port=3306;username=root;password=root";
+            connection = new MySqlConnection(connectionString);
+        }
+
+        //retrieve method will get the specific
+        //data from the given quary
+        public DataSet retrieveData()
+        {
+
+            DataSet ds = new DataSet();
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
             dbAdapter = new MySqlDataAdapter(quary, connection);
             try
             {
                 connection.Open();
+<<<<<<< HEAD
                 dbAdapter.Fill(dt);
             }
             catch (MySqlException mse) { MessageBox.Show(mse.Message);}
@@ -171,3 +207,15 @@ namespace DigitalSolutions___Prototype1___SB
 
     }
 }
+=======
+                dbAdapter.Fill(ds);
+            }
+            catch (MySqlException mse) { }
+            connection.Close();
+
+            return ds;
+        }
+    }
+}
+
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2

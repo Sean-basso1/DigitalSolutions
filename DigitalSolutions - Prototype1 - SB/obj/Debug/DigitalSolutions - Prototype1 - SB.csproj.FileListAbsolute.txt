@@ -16,6 +16,7 @@ H:\CSIS 3275 - Software Engineering\Digital Solutions Files\Prototypes\DigitalSo
 C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
 C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Sean\Source\Repos\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
+<<<<<<< HEAD
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe
 C:\Users\Jesse\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.pdb
@@ -136,3 +137,8 @@ C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Pro
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.createEmployeeForm.resources
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions___Prototype1___SB.Properties.Resources.resources
 C:\Users\Eric\Desktop\Digital Solutions\Digital Solutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.csproj.GenerateResource.Cache
+=======
+C:\Users\Hafiz\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\bin\Debug\DigitalSolutions - Prototype1 - SB.exe.config
+C:\Users\Hafiz\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.exe
+C:\Users\Hafiz\Documents\GitHub\DigitalSolutions\DigitalSolutions - Prototype1 - SB\obj\Debug\DigitalSolutions - Prototype1 - SB.pdb
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2

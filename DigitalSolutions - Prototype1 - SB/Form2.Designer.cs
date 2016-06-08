@@ -34,11 +34,19 @@
             this.logoutButton = new System.Windows.Forms.Button();
             this.employeeListingButton = new System.Windows.Forms.Button();
             this.mainScreenListView = new System.Windows.Forms.ListView();
+<<<<<<< HEAD
             this.projectCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeaderProjectName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clientName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.shortDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.startDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+=======
+            this.columnHeaderProjectCode = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderProjectName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderClientName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderShortDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeaderStartDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
             this.SuspendLayout();
             // 
             // createProjectButton
@@ -94,6 +102,7 @@
             // mainScreenListView
             // 
             this.mainScreenListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+<<<<<<< HEAD
             this.projectCode,
             this.columnHeaderProjectName,
             this.clientName,
@@ -103,18 +112,36 @@
             this.mainScreenListView.Location = new System.Drawing.Point(151, 12);
             this.mainScreenListView.Name = "mainScreenListView";
             this.mainScreenListView.Size = new System.Drawing.Size(743, 405);
+=======
+            this.columnHeaderProjectCode,
+            this.columnHeaderProjectName,
+            this.columnHeaderClientName,
+            this.columnHeaderShortDesc,
+            this.columnHeaderStartDate});
+            this.mainScreenListView.Location = new System.Drawing.Point(126, 12);
+            this.mainScreenListView.Name = "mainScreenListView";
+            this.mainScreenListView.Size = new System.Drawing.Size(523, 423);
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
             this.mainScreenListView.TabIndex = 7;
             this.mainScreenListView.UseCompatibleStateImageBehavior = false;
             this.mainScreenListView.View = System.Windows.Forms.View.Details;
             // 
+<<<<<<< HEAD
             // projectCode
             // 
             this.projectCode.Text = "Project Code";
             this.projectCode.Width = 118;
+=======
+            // columnHeaderProjectCode
+            // 
+            this.columnHeaderProjectCode.Text = "Project Code";
+            this.columnHeaderProjectCode.Width = 79;
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
             // 
             // columnHeaderProjectName
             // 
             this.columnHeaderProjectName.Text = "Project Name";
+<<<<<<< HEAD
             this.columnHeaderProjectName.Width = 116;
             // 
             // clientName
@@ -131,12 +158,34 @@
             // 
             this.startDate.Text = "Start Date";
             this.startDate.Width = 171;
+=======
+            this.columnHeaderProjectName.Width = 137;
+            // 
+            // columnHeaderClientName
+            // 
+            this.columnHeaderClientName.Text = "Client Name";
+            this.columnHeaderClientName.Width = 105;
+            // 
+            // columnHeaderShortDesc
+            // 
+            this.columnHeaderShortDesc.Text = "Short Description";
+            this.columnHeaderShortDesc.Width = 100;
+            // 
+            // columnHeaderStartDate
+            // 
+            this.columnHeaderStartDate.Text = "Start Date";
+            this.columnHeaderStartDate.Width = 95;
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
             // 
             // mainScreenFormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(939, 429);
+=======
+            this.ClientSize = new System.Drawing.Size(661, 447);
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
             this.Controls.Add(this.mainScreenListView);
             this.Controls.Add(this.employeeListingButton);
             this.Controls.Add(this.logoutButton);
@@ -159,10 +208,18 @@
         private System.Windows.Forms.Button logoutButton;
         private System.Windows.Forms.Button employeeListingButton;
         private System.Windows.Forms.ListView mainScreenListView;
+<<<<<<< HEAD
         private System.Windows.Forms.ColumnHeader projectCode;
         private System.Windows.Forms.ColumnHeader columnHeaderProjectName;
         private System.Windows.Forms.ColumnHeader clientName;
         private System.Windows.Forms.ColumnHeader shortDesc;
         private System.Windows.Forms.ColumnHeader startDate;
+=======
+        private System.Windows.Forms.ColumnHeader columnHeaderProjectCode;
+        private System.Windows.Forms.ColumnHeader columnHeaderProjectName;
+        private System.Windows.Forms.ColumnHeader columnHeaderClientName;
+        private System.Windows.Forms.ColumnHeader columnHeaderShortDesc;
+        private System.Windows.Forms.ColumnHeader columnHeaderStartDate;
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
     }
 }

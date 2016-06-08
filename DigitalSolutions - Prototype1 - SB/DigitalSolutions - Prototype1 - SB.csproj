@@ -33,6 +33,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+<<<<<<< HEAD
+=======
+    <Reference Include="MySql.Web, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -49,7 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="DsUtil.cs" />
+=======
+    <Compile Include="Converter.cs" />
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +115,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="ProjectHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Queries.cs" />
     <Compile Include="RetrieveData.cs" />
     <Compile Include="software_eng_db_1DataSet.cs">
@@ -117,6 +126,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>software_eng_db_1DataSet.xsd</DependentUpon>
     </Compile>
+=======
+    <Compile Include="RetrieveData.cs" />
+>>>>>>> 0ca7151193998ceee08e7087548e86817bc0eab2
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
